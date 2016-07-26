@@ -10,13 +10,28 @@
 <body>
 	<div class="container">
 		<img src="assets/images/nintendo.jpg">
-				<h3>Press Any Key To Get Started<br></h3>
-				<h3>Wins<h3>
-				<h3>Current Word</h3>
-				<h3>Guesses Remaining</h3>
-				<h3>Letter Already Guessed</h3>
+		<div id= "game-section">
+			<h3>Press Any Key To Get Started</h3>
+			<div id= "current-word-section">
+				<h3 class ="section-title">Wins</h3>
+				<div id="wins"></div>
+			</div>
+			<div id= "current-word-section">
+				<h3 class ="section-title">Current Word</h3>
+				<div id ="current-word"></div>
+			</div>
+			<div id= "current-word-section">
+				<h3 class ="section-title">Guesses Remaining</h3>
+				<div id ="guesses-remaining"></div>
+			</div>
+			<div id= "current-word-section">
+				<h3 class ="section-title">Letter Already Guessed</h3>
+				<div id ="letter-already-guessed"></div>
+			</div>
+		</div>
 	</div>
+
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-	<script src="assets/javascript/game.js"</script>
+	<script src="assets/javascript/game.js"></script>
 </body>
 </html>	
